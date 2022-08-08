@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="146.983">
+<testcase classname="user create new account" name="user create new account" time="22.022">
+<system-out><![CDATA[Given user click on sign in tab.............................................passed
+When user enter email.......................................................passed
+And user click on create an account button..................................passed
+And user select gender type.................................................passed
+And user enter first name and last name.....................................passed
+And user enter password.....................................................passed
+And user enter date of birth................................................passed
+And user enter company name.................................................passed
+And user enter address1.....................................................passed
+And user enter address2.....................................................passed
+And user enter city name....................................................passed
+And user select the state...................................................passed
+And user enter postal code..................................................passed
+And user select country.....................................................passed
+And user enter home phone...................................................passed
+And user enter mobil phone..................................................passed
+And user enter address alias................................................passed
+Then user click on register button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="authenticate as new user" name="authenticate as new user" time="17.353">
+<system-out><![CDATA[Given user click on sign in tab.............................................passed
+When user enter email address...............................................passed
+And user enter log in password..............................................passed
+Then user click on sign in button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Select “Blouses” Subcategory in “Women” Category" name="Select “Blouses” Subcategory in “Women” Category" time="21.485">
+<system-out><![CDATA[Given user click on sign in tab.............................................passed
+When user enter email address...............................................passed
+And user enter log in password..............................................passed
+And user click on sign in button............................................passed
+And user CLick on women tab.................................................passed
+Then user click on Blouses tab..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="select resulted product" name="select resulted product" time="35.348">
+<system-out><![CDATA[Given user click on sign in tab.............................................passed
+When user enter email address...............................................passed
+And user enter log in password..............................................passed
+And user click on sign in button............................................passed
+And user CLick on women tab.................................................passed
+And user click on Blouses tab...............................................passed
+And user choose resulted product............................................passed
+And user click on add to cart button........................................passed
+And user follow checkout procedure..........................................passed
+Then confirm order by selecting bank wire option............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate order was placed from order history page" name="Validate order was placed from order history page" time="50.184">
+<system-out><![CDATA[Given user click on sign in tab.............................................passed
+When user enter email address...............................................passed
+And user enter log in password..............................................passed
+And user click on sign in button............................................passed
+And user CLick on women tab.................................................passed
+And user click on Blouses tab...............................................passed
+And user choose resulted product............................................passed
+And user click on add to cart button........................................passed
+And user follow checkout procedure..........................................passed
+And confirm order by selecting bank wire option.............................passed
+And user click on my account button.........................................passed
+Then user click on order history button.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
